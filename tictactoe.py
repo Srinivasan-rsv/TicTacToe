@@ -25,7 +25,7 @@ def player_inp():
     marker=' '
     marker=input('choose X or O ')
     player1=marker
-    if player1=='X'||player1=='x':
+    if player1=='X'or player1=='x':
         player2='o'
         player1='x'
     else:
